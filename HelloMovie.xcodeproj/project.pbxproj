@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25EE5273EAFBDEF6B1DDA258 /* Pods_HelloMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B856184D382DD02EDA2ABD3 /* Pods_HelloMovieTests.framework */; };
 		CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA46230CE047003D64E9 /* AppDelegate.swift */; };
 		CBF1CA49230CE047003D64E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA48230CE047003D64E9 /* ViewController.swift */; };
 		CBF1CA4C230CE047003D64E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4A230CE047003D64E9 /* Main.storyboard */; };
 		CBF1CA4E230CE048003D64E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4D230CE048003D64E9 /* Assets.xcassets */; };
 		CBF1CA51230CE048003D64E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */; };
 		CBF1CA5C230CE048003D64E9 /* HelloMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */; };
+		CD28FBE46B04A793A0AEADDE /* Pods_HelloMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC77195779A79E45AB80619 /* Pods_HelloMovie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		666140D8EDB17446B76ECBF7 /* Pods-HelloMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMovieTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloMovieTests/Pods-HelloMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B856184D382DD02EDA2ABD3 /* Pods_HelloMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB322D313BFA1F2B3FD887B /* Pods-HelloMovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMovieTests.release.xcconfig"; path = "Target Support Files/Pods-HelloMovieTests/Pods-HelloMovieTests.release.xcconfig"; sourceTree = "<group>"; };
+		929FA877A54A75C83BE30673 /* Pods-HelloMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMovie.release.xcconfig"; path = "Target Support Files/Pods-HelloMovie/Pods-HelloMovie.release.xcconfig"; sourceTree = "<group>"; };
+		ABC77195779A79E45AB80619 /* Pods_HelloMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF1CA43230CE047003D64E9 /* HelloMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF1CA46230CE047003D64E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF1CA48230CE047003D64E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		CBF1CA57230CE048003D64E9 /* HelloMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMovieTests.swift; sourceTree = "<group>"; };
 		CBF1CA5D230CE048003D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40D5A51EB97EBD52E3D1237 /* Pods-HelloMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMovie.debug.xcconfig"; path = "Target Support Files/Pods-HelloMovie/Pods-HelloMovie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD28FBE46B04A793A0AEADDE /* Pods_HelloMovie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EE5273EAFBDEF6B1DDA258 /* Pods_HelloMovieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		765F461C65648C2ECDF654DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F40D5A51EB97EBD52E3D1237 /* Pods-HelloMovie.debug.xcconfig */,
+				929FA877A54A75C83BE30673 /* Pods-HelloMovie.release.xcconfig */,
+				666140D8EDB17446B76ECBF7 /* Pods-HelloMovieTests.debug.xcconfig */,
+				7AB322D313BFA1F2B3FD887B /* Pods-HelloMovieTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEEA1B03073D0330789DA7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC77195779A79E45AB80619 /* Pods_HelloMovie.framework */,
+				6B856184D382DD02EDA2ABD3 /* Pods_HelloMovieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBF1CA3A230CE047003D64E9 = {
 			isa = PBXGroup;
 			children = (
 				CBF1CA45230CE047003D64E9 /* HelloMovie */,
 				CBF1CA5A230CE048003D64E9 /* HelloMovieTests */,
 				CBF1CA44230CE047003D64E9 /* Products */,
+				765F461C65648C2ECDF654DB /* Pods */,
+				AEEA1B03073D0330789DA7C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +109,10 @@
 		CBF1CA45230CE047003D64E9 /* HelloMovie */ = {
 			isa = PBXGroup;
 			children = (
+				CBF1CA66230CE0B2003D64E9 /* SupportFiles */,
 				CBF1CA46230CE047003D64E9 /* AppDelegate.swift */,
 				CBF1CA48230CE047003D64E9 /* ViewController.swift */,
 				CBF1CA4A230CE047003D64E9 /* Main.storyboard */,
-				CBF1CA4D230CE048003D64E9 /* Assets.xcassets */,
-				CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */,
-				CBF1CA52230CE048003D64E9 /* Info.plist */,
 			);
 			path = HelloMovie;
 			sourceTree = "<group>";
@@ -96,6 +126,16 @@
 			path = HelloMovieTests;
 			sourceTree = "<group>";
 		};
+		CBF1CA66230CE0B2003D64E9 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */,
+				CBF1CA4D230CE048003D64E9 /* Assets.xcassets */,
+				CBF1CA52230CE048003D64E9 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBF1CA60230CE048003D64E9 /* Build configuration list for PBXNativeTarget "HelloMovie" */;
 			buildPhases = (
+				87FC13B3CA171B299F2B8E87 /* [CP] Check Pods Manifest.lock */,
 				CBF1CA3F230CE047003D64E9 /* Sources */,
 				CBF1CA40230CE047003D64E9 /* Frameworks */,
 				CBF1CA41230CE047003D64E9 /* Resources */,
@@ -120,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBF1CA63230CE048003D64E9 /* Build configuration list for PBXNativeTarget "HelloMovieTests" */;
 			buildPhases = (
+				FE1F475F4654B6B8E597402C /* [CP] Check Pods Manifest.lock */,
 				CBF1CA53230CE048003D64E9 /* Sources */,
 				CBF1CA54230CE048003D64E9 /* Frameworks */,
 				CBF1CA55230CE048003D64E9 /* Resources */,
@@ -191,6 +233,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87FC13B3CA171B299F2B8E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMovie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1F475F4654B6B8E597402C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMovieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBF1CA3F230CE047003D64E9 /* Sources */ = {
@@ -358,6 +447,7 @@
 		};
 		CBF1CA61230CE048003D64E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40D5A51EB97EBD52E3D1237 /* Pods-HelloMovie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +466,7 @@
 		};
 		CBF1CA62230CE048003D64E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929FA877A54A75C83BE30673 /* Pods-HelloMovie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +485,7 @@
 		};
 		CBF1CA64230CE048003D64E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666140D8EDB17446B76ECBF7 /* Pods-HelloMovieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +507,7 @@
 		};
 		CBF1CA65230CE048003D64E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB322D313BFA1F2B3FD887B /* Pods-HelloMovieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
