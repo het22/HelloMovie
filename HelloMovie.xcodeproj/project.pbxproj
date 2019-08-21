@@ -15,7 +15,7 @@
 		CBF1CA6B230CE50C003D64E9 /* MovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6A230CE50C003D64E9 /* MovieListVC.swift */; };
 		CBF1CA6D230CE513003D64E9 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6C230CE513003D64E9 /* MovieDetailVC.swift */; };
 		CBF1CA6F230CE648003D64E9 /* MovieListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6E230CE648003D64E9 /* MovieListTVC.swift */; };
-		CBF1CA71230CEA4D003D64E9 /* TMRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA70230CEA4D003D64E9 /* TMRouter.swift */; };
+		CBF1CA71230CEA4D003D64E9 /* TMDRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA70230CEA4D003D64E9 /* TMDRouter.swift */; };
 		CBF1CA74230CED43003D64E9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA73230CED43003D64E9 /* Network.swift */; };
 		CBF1CA76230CF2E6003D64E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA75230CF2E6003D64E9 /* Main.storyboard */; };
 		CBF1CA79230CF53A003D64E9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA78230CF53A003D64E9 /* Movie.swift */; };
@@ -49,7 +49,7 @@
 		CBF1CA6A230CE50C003D64E9 /* MovieListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListVC.swift; sourceTree = "<group>"; };
 		CBF1CA6C230CE513003D64E9 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
 		CBF1CA6E230CE648003D64E9 /* MovieListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTVC.swift; sourceTree = "<group>"; };
-		CBF1CA70230CEA4D003D64E9 /* TMRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRouter.swift; sourceTree = "<group>"; };
+		CBF1CA70230CEA4D003D64E9 /* TMDRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDRouter.swift; sourceTree = "<group>"; };
 		CBF1CA73230CED43003D64E9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		CBF1CA75230CF2E6003D64E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = HelloMovie/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		CBF1CA78230CF53A003D64E9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				CBF1CA73230CED43003D64E9 /* Network.swift */,
-				CBF1CA70230CEA4D003D64E9 /* TMRouter.swift */,
+				CBF1CA70230CEA4D003D64E9 /* TMDRouter.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -337,7 +337,7 @@
 			files = (
 				CBF1CA79230CF53A003D64E9 /* Movie.swift in Sources */,
 				CBF1CA6F230CE648003D64E9 /* MovieListTVC.swift in Sources */,
-				CBF1CA71230CEA4D003D64E9 /* TMRouter.swift in Sources */,
+				CBF1CA71230CEA4D003D64E9 /* TMDRouter.swift in Sources */,
 				CBF1CA74230CED43003D64E9 /* Network.swift in Sources */,
 				CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */,
 				CBF1CA6D230CE513003D64E9 /* MovieDetailVC.swift in Sources */,
