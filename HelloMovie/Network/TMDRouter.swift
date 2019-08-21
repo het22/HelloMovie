@@ -15,7 +15,7 @@ enum TMDRouter: URLRequestConvertible {
         static let authenticationToken = "API_KEY"
     }
     
-    case NowPlaying
+    case NowPlaying(page: Int)
     
     var method: HTTPMethod {
         switch self {
@@ -31,9 +31,10 @@ enum TMDRouter: URLRequestConvertible {
     
     var parameters: [String: Any] {
         var params: [String: Any] = [:]
+        params["api_key"] = Constants.authenticationToken
         params["language"] = "ko"
         switch self {
-        case .NowPlaying: break
+        case .NowPlaying(let page): params["page"] = page
         }
         return params
     }
@@ -42,7 +43,6 @@ enum TMDRouter: URLRequestConvertible {
         let url = try Constants.baseURLPath.asURL()
         var request = URLRequest(url: url.appendingPathComponent(path))
         request.httpMethod = method.rawValue
-        request.setValue(Constants.authenticationToken, forHTTPHeaderField: "Authorization")
         request.timeoutInterval = TimeInterval(10*1000)
         return try URLEncoding.default.encode(request, with: parameters)
     }
