@@ -19,3 +19,13 @@ struct Movie: Codable {
     let release_date: String
     let vote_average: Float
 }
+
+struct MovieDetail: Codable {
+    let poster_path: String?
+    let title: String
+    let tagline: String
+    let release_date: String
+    let vote_average: Float
+    let runtime: Int
+    let overview: String
+}
