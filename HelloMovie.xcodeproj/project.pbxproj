@@ -13,12 +13,12 @@
 		CBF1CA51230CE048003D64E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */; };
 		CBF1CA5C230CE048003D64E9 /* HelloMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */; };
 		CBF1CA6B230CE50C003D64E9 /* MovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6A230CE50C003D64E9 /* MovieListVC.swift */; };
-		CBF1CA6D230CE513003D64E9 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6C230CE513003D64E9 /* MovieDetailVC.swift */; };
 		CBF1CA6F230CE648003D64E9 /* MovieListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6E230CE648003D64E9 /* MovieListTVC.swift */; };
 		CBF1CA71230CEA4D003D64E9 /* TMDRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA70230CEA4D003D64E9 /* TMDRouter.swift */; };
 		CBF1CA74230CED43003D64E9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA73230CED43003D64E9 /* Network.swift */; };
 		CBF1CA76230CF2E6003D64E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA75230CF2E6003D64E9 /* Main.storyboard */; };
 		CBF1CA79230CF53A003D64E9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA78230CF53A003D64E9 /* Movie.swift */; };
+		CBF1CA7D230D37FF003D64E9 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA7C230D37FF003D64E9 /* MovieDetailVC.swift */; };
 		CD28FBE46B04A793A0AEADDE /* Pods_HelloMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC77195779A79E45AB80619 /* Pods_HelloMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,12 +47,12 @@
 		CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMovieTests.swift; sourceTree = "<group>"; };
 		CBF1CA5D230CE048003D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF1CA6A230CE50C003D64E9 /* MovieListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListVC.swift; sourceTree = "<group>"; };
-		CBF1CA6C230CE513003D64E9 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
 		CBF1CA6E230CE648003D64E9 /* MovieListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTVC.swift; sourceTree = "<group>"; };
 		CBF1CA70230CEA4D003D64E9 /* TMDRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDRouter.swift; sourceTree = "<group>"; };
 		CBF1CA73230CED43003D64E9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		CBF1CA75230CF2E6003D64E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = HelloMovie/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		CBF1CA78230CF53A003D64E9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CBF1CA7C230D37FF003D64E9 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
 		F40D5A51EB97EBD52E3D1237 /* Pods-HelloMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMovie.debug.xcconfig"; path = "Target Support Files/Pods-HelloMovie/Pods-HelloMovie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,11 +122,11 @@
 				CBF1CA66230CE0B2003D64E9 /* SupportFiles */,
 				CBF1CA77230CF52C003D64E9 /* Model */,
 				CBF1CA72230CECFE003D64E9 /* Network */,
-				CBF1CA75230CF2E6003D64E9 /* Main.storyboard */,
 				CBF1CA46230CE047003D64E9 /* AppDelegate.swift */,
+				CBF1CA75230CF2E6003D64E9 /* Main.storyboard */,
 				CBF1CA6A230CE50C003D64E9 /* MovieListVC.swift */,
 				CBF1CA6E230CE648003D64E9 /* MovieListTVC.swift */,
-				CBF1CA6C230CE513003D64E9 /* MovieDetailVC.swift */,
+				CBF1CA7C230D37FF003D64E9 /* MovieDetailVC.swift */,
 			);
 			path = HelloMovie;
 			sourceTree = "<group>";
@@ -335,12 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF1CA7D230D37FF003D64E9 /* MovieDetailVC.swift in Sources */,
 				CBF1CA79230CF53A003D64E9 /* Movie.swift in Sources */,
 				CBF1CA6F230CE648003D64E9 /* MovieListTVC.swift in Sources */,
 				CBF1CA71230CEA4D003D64E9 /* TMDRouter.swift in Sources */,
 				CBF1CA74230CED43003D64E9 /* Network.swift in Sources */,
 				CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */,
-				CBF1CA6D230CE513003D64E9 /* MovieDetailVC.swift in Sources */,
 				CBF1CA6B230CE50C003D64E9 /* MovieListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
