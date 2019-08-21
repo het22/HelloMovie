@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		25EE5273EAFBDEF6B1DDA258 /* Pods_HelloMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B856184D382DD02EDA2ABD3 /* Pods_HelloMovieTests.framework */; };
 		CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA46230CE047003D64E9 /* AppDelegate.swift */; };
-		CBF1CA49230CE047003D64E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA48230CE047003D64E9 /* ViewController.swift */; };
-		CBF1CA4C230CE047003D64E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4A230CE047003D64E9 /* Main.storyboard */; };
 		CBF1CA4E230CE048003D64E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4D230CE048003D64E9 /* Assets.xcassets */; };
 		CBF1CA51230CE048003D64E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */; };
 		CBF1CA5C230CE048003D64E9 /* HelloMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */; };
+		CBF1CA6B230CE50C003D64E9 /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6A230CE50C003D64E9 /* ItemListVC.swift */; };
+		CBF1CA6D230CE513003D64E9 /* ItemDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6C230CE513003D64E9 /* ItemDetailVC.swift */; };
+		CBF1CA6F230CE648003D64E9 /* ItemListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA6E230CE648003D64E9 /* ItemListTVC.swift */; };
+		CBF1CA71230CEA4D003D64E9 /* TMRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA70230CEA4D003D64E9 /* TMRouter.swift */; };
+		CBF1CA74230CED43003D64E9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA73230CED43003D64E9 /* Network.swift */; };
+		CBF1CA76230CF2E6003D64E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA75230CF2E6003D64E9 /* Main.storyboard */; };
 		CD28FBE46B04A793A0AEADDE /* Pods_HelloMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC77195779A79E45AB80619 /* Pods_HelloMovie.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,14 +39,18 @@
 		ABC77195779A79E45AB80619 /* Pods_HelloMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF1CA43230CE047003D64E9 /* HelloMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF1CA46230CE047003D64E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBF1CA48230CE047003D64E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBF1CA4B230CE047003D64E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBF1CA4D230CE048003D64E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF1CA50230CE048003D64E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBF1CA52230CE048003D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF1CA57230CE048003D64E9 /* HelloMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMovieTests.swift; sourceTree = "<group>"; };
 		CBF1CA5D230CE048003D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF1CA6A230CE50C003D64E9 /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
+		CBF1CA6C230CE513003D64E9 /* ItemDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailVC.swift; sourceTree = "<group>"; };
+		CBF1CA6E230CE648003D64E9 /* ItemListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTVC.swift; sourceTree = "<group>"; };
+		CBF1CA70230CEA4D003D64E9 /* TMRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRouter.swift; sourceTree = "<group>"; };
+		CBF1CA73230CED43003D64E9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CBF1CA75230CF2E6003D64E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = HelloMovie/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		F40D5A51EB97EBD52E3D1237 /* Pods-HelloMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMovie.debug.xcconfig"; path = "Target Support Files/Pods-HelloMovie/Pods-HelloMovie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,9 +118,12 @@
 			isa = PBXGroup;
 			children = (
 				CBF1CA66230CE0B2003D64E9 /* SupportFiles */,
+				CBF1CA72230CECFE003D64E9 /* Network */,
+				CBF1CA75230CF2E6003D64E9 /* Main.storyboard */,
 				CBF1CA46230CE047003D64E9 /* AppDelegate.swift */,
-				CBF1CA48230CE047003D64E9 /* ViewController.swift */,
-				CBF1CA4A230CE047003D64E9 /* Main.storyboard */,
+				CBF1CA6A230CE50C003D64E9 /* ItemListVC.swift */,
+				CBF1CA6E230CE648003D64E9 /* ItemListTVC.swift */,
+				CBF1CA6C230CE513003D64E9 /* ItemDetailVC.swift */,
 			);
 			path = HelloMovie;
 			sourceTree = "<group>";
@@ -129,11 +140,20 @@
 		CBF1CA66230CE0B2003D64E9 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				CBF1CA52230CE048003D64E9 /* Info.plist */,
 				CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */,
 				CBF1CA4D230CE048003D64E9 /* Assets.xcassets */,
-				CBF1CA52230CE048003D64E9 /* Info.plist */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		CBF1CA72230CECFE003D64E9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1CA70230CEA4D003D64E9 /* TMRouter.swift */,
+				CBF1CA73230CED43003D64E9 /* Network.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF1CA76230CF2E6003D64E9 /* Main.storyboard in Resources */,
 				CBF1CA51230CE048003D64E9 /* LaunchScreen.storyboard in Resources */,
 				CBF1CA4E230CE048003D64E9 /* Assets.xcassets in Resources */,
-				CBF1CA4C230CE047003D64E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF1CA49230CE047003D64E9 /* ViewController.swift in Sources */,
+				CBF1CA6F230CE648003D64E9 /* ItemListTVC.swift in Sources */,
+				CBF1CA71230CEA4D003D64E9 /* TMRouter.swift in Sources */,
+				CBF1CA74230CED43003D64E9 /* Network.swift in Sources */,
 				CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */,
+				CBF1CA6D230CE513003D64E9 /* ItemDetailVC.swift in Sources */,
+				CBF1CA6B230CE50C003D64E9 /* ItemListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,14 +352,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CBF1CA4A230CE047003D64E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBF1CA4B230CE047003D64E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
