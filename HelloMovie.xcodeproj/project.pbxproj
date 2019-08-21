@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA46230CE047003D64E9 /* AppDelegate.swift */; };
+		CBF1CA49230CE047003D64E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA48230CE047003D64E9 /* ViewController.swift */; };
+		CBF1CA4C230CE047003D64E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4A230CE047003D64E9 /* Main.storyboard */; };
+		CBF1CA4E230CE048003D64E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4D230CE048003D64E9 /* Assets.xcassets */; };
+		CBF1CA51230CE048003D64E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */; };
+		CBF1CA5C230CE048003D64E9 /* HelloMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF1CA58230CE048003D64E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF1CA3B230CE047003D64E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF1CA42230CE047003D64E9;
+			remoteInfo = HelloMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF1CA43230CE047003D64E9 /* HelloMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF1CA46230CE047003D64E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBF1CA48230CE047003D64E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBF1CA4B230CE047003D64E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBF1CA4D230CE048003D64E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF1CA50230CE048003D64E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF1CA52230CE048003D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF1CA57230CE048003D64E9 /* HelloMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMovieTests.swift; sourceTree = "<group>"; };
+		CBF1CA5D230CE048003D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF1CA40230CE047003D64E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF1CA54230CE048003D64E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF1CA3A230CE047003D64E9 = {
+			isa = PBXGroup;
+			children = (
+				CBF1CA45230CE047003D64E9 /* HelloMovie */,
+				CBF1CA5A230CE048003D64E9 /* HelloMovieTests */,
+				CBF1CA44230CE047003D64E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF1CA44230CE047003D64E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1CA43230CE047003D64E9 /* HelloMovie.app */,
+				CBF1CA57230CE048003D64E9 /* HelloMovieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF1CA45230CE047003D64E9 /* HelloMovie */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1CA46230CE047003D64E9 /* AppDelegate.swift */,
+				CBF1CA48230CE047003D64E9 /* ViewController.swift */,
+				CBF1CA4A230CE047003D64E9 /* Main.storyboard */,
+				CBF1CA4D230CE048003D64E9 /* Assets.xcassets */,
+				CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */,
+				CBF1CA52230CE048003D64E9 /* Info.plist */,
+			);
+			path = HelloMovie;
+			sourceTree = "<group>";
+		};
+		CBF1CA5A230CE048003D64E9 /* HelloMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1CA5B230CE048003D64E9 /* HelloMovieTests.swift */,
+				CBF1CA5D230CE048003D64E9 /* Info.plist */,
+			);
+			path = HelloMovieTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF1CA42230CE047003D64E9 /* HelloMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF1CA60230CE048003D64E9 /* Build configuration list for PBXNativeTarget "HelloMovie" */;
+			buildPhases = (
+				CBF1CA3F230CE047003D64E9 /* Sources */,
+				CBF1CA40230CE047003D64E9 /* Frameworks */,
+				CBF1CA41230CE047003D64E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMovie;
+			productName = HelloMovie;
+			productReference = CBF1CA43230CE047003D64E9 /* HelloMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF1CA56230CE048003D64E9 /* HelloMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF1CA63230CE048003D64E9 /* Build configuration list for PBXNativeTarget "HelloMovieTests" */;
+			buildPhases = (
+				CBF1CA53230CE048003D64E9 /* Sources */,
+				CBF1CA54230CE048003D64E9 /* Frameworks */,
+				CBF1CA55230CE048003D64E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF1CA59230CE048003D64E9 /* PBXTargetDependency */,
+			);
+			name = HelloMovieTests;
+			productName = HelloMovieTests;
+			productReference = CBF1CA57230CE048003D64E9 /* HelloMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF1CA3B230CE047003D64E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Het Song";
+				TargetAttributes = {
+					CBF1CA42230CE047003D64E9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CBF1CA56230CE048003D64E9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CBF1CA42230CE047003D64E9;
+					};
+				};
+			};
+			buildConfigurationList = CBF1CA3E230CE047003D64E9 /* Build configuration list for PBXProject "HelloMovie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF1CA3A230CE047003D64E9;
+			productRefGroup = CBF1CA44230CE047003D64E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF1CA42230CE047003D64E9 /* HelloMovie */,
+				CBF1CA56230CE048003D64E9 /* HelloMovieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF1CA41230CE047003D64E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF1CA51230CE048003D64E9 /* LaunchScreen.storyboard in Resources */,
+				CBF1CA4E230CE048003D64E9 /* Assets.xcassets in Resources */,
+				CBF1CA4C230CE047003D64E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF1CA55230CE048003D64E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF1CA3F230CE047003D64E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF1CA49230CE047003D64E9 /* ViewController.swift in Sources */,
+				CBF1CA47230CE047003D64E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF1CA53230CE048003D64E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF1CA5C230CE048003D64E9 /* HelloMovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF1CA59230CE048003D64E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF1CA42230CE047003D64E9 /* HelloMovie */;
+			targetProxy = CBF1CA58230CE048003D64E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF1CA4A230CE047003D64E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF1CA4B230CE047003D64E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF1CA4F230CE048003D64E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF1CA50230CE048003D64E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF1CA5E230CE048003D64E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBF1CA5F230CE048003D64E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF1CA61230CE048003D64E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG8N8ES43K;
+				INFOPLIST_FILE = HelloMovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HET.HelloMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBF1CA62230CE048003D64E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG8N8ES43K;
+				INFOPLIST_FILE = HelloMovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HET.HelloMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBF1CA64230CE048003D64E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG8N8ES43K;
+				INFOPLIST_FILE = HelloMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HET.HelloMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMovie.app/HelloMovie";
+			};
+			name = Debug;
+		};
+		CBF1CA65230CE048003D64E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG8N8ES43K;
+				INFOPLIST_FILE = HelloMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HET.HelloMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMovie.app/HelloMovie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF1CA3E230CE047003D64E9 /* Build configuration list for PBXProject "HelloMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF1CA5E230CE048003D64E9 /* Debug */,
+				CBF1CA5F230CE048003D64E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF1CA60230CE048003D64E9 /* Build configuration list for PBXNativeTarget "HelloMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF1CA61230CE048003D64E9 /* Debug */,
+				CBF1CA62230CE048003D64E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF1CA63230CE048003D64E9 /* Build configuration list for PBXNativeTarget "HelloMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF1CA64230CE048003D64E9 /* Debug */,
+				CBF1CA65230CE048003D64E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF1CA3B230CE047003D64E9 /* Project object */;
+}
