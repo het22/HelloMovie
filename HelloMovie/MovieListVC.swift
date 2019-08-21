@@ -13,6 +13,7 @@ class MovieListViewController: UIViewController {
     var movieList: [Movie] = [] {
         didSet { movieListTableView.reloadData() }
     }
+    var selectedMovie: Movie?
     var currentPage = 1
     
     @IBOutlet weak var movieListTableView: UITableView! {
@@ -26,7 +27,7 @@ class MovieListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Network.shared.AFRequestNowPlaying { [weak self] in self?.movieList = $0 }
+        requestNowPlayingMovie(page: currentPage)
     }
     
     func requestNowPlayingMovie(page: Int) {
@@ -36,6 +37,12 @@ class MovieListViewController: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let movieDetailVC = segue.destination as? MovieDetailViewController,
+            let selectedMovie = self.selectedMovie {
+            movieDetailVC.movie = selectedMovie
+        }
+    }
 }
 
 extension MovieListViewController: UITableViewDataSource, UITableViewDelegate {
@@ -57,6 +64,8 @@ extension MovieListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedMovie = movieList[indexPath.row]
+        performSegue(withIdentifier: "ToMovieDetailVC", sender: self)
     }
 }
 
