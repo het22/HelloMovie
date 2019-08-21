@@ -16,16 +16,19 @@ enum TMDRouter: URLRequestConvertible {
     }
     
     case NowPlaying(page: Int)
+    case MovieDetail(id: Int)
     
     var method: HTTPMethod {
         switch self {
         case .NowPlaying: return .get
+        case .MovieDetail: return .get
         }
     }
     
     var path: String {
         switch self {
         case .NowPlaying: return "now_playing"
+        case .MovieDetail(let id): return "\(id)"
         }
     }
     
@@ -35,6 +38,7 @@ enum TMDRouter: URLRequestConvertible {
         params["language"] = "ko"
         switch self {
         case .NowPlaying(let page): params["page"] = page
+        default: break
         }
         return params
     }
