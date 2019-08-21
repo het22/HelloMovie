@@ -6,6 +6,7 @@ target 'HelloMovie' do
   use_frameworks!
 
   # Pods for HelloMovie
+  pod 'Alamofire', '4.8.2'
 
   target 'HelloMovieTests' do
     inherit! :search_paths
