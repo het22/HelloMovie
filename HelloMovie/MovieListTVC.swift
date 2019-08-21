@@ -26,8 +26,11 @@ class MovieListTableViewCell: UITableViewCell {
     }
     
     func configure(movie: Movie) {
-        posterImageView.sd_setImage(with: URL(string: "https://image.tmdb.org/t/p/w200/\(movie.poster_path)"),
-                                    placeholderImage: nil)
+        if let path = movie.poster_path {
+            let url = URL(string: "https://image.tmdb.org/t/p/w200/\(path)")
+            posterImageView.sd_setImage(with: url,
+                                        placeholderImage: nil)
+        }
         titleLabel.text = movie.title
         releaseDateLabel.text = "개봉일: \(movie.release_date)"
         ratingLabel.text = "평균평점: \(movie.vote_average)"
