@@ -27,4 +27,20 @@ class Network {
                 }
             }
     }
+    
+    func AFRequestMovieDetail(id: Int, completion: @escaping (MovieDetail)->Void) {
+        Alamofire
+            .request(TMDRouter.MovieDetail(id: id))
+            .validate()
+            .responseData { response in
+                if let result = response.result.value {
+                    do {
+                        let movieDetail = try JSONDecoder().decode(MovieDetail.self, from: result)
+                        completion(movieDetail)
+                    } catch {
+                        print(error)
+                    }
+                }
+        }
+    }
 }
