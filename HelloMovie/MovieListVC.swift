@@ -13,6 +13,7 @@ class MovieListViewController: UIViewController {
     var movieList: [Movie] = [] {
         didSet { movieListTableView.reloadData() }
     }
+    var currentPage = 1
     
     @IBOutlet weak var movieListTableView: UITableView! {
         didSet {
@@ -28,6 +29,13 @@ class MovieListViewController: UIViewController {
         Network.shared.AFRequestNowPlaying { [weak self] in self?.movieList = $0 }
     }
     
+    func requestNowPlayingMovie(page: Int) {
+        Network.shared.AFRequestNowPlaying(page: currentPage) { [weak self] in
+            self?.movieList.append(contentsOf: $0)
+            self?.currentPage += 1
+        }
+    }
+    
 }
 
 extension MovieListViewController: UITableViewDataSource, UITableViewDelegate {
@@ -41,6 +49,10 @@ extension MovieListViewController: UITableViewDataSource, UITableViewDelegate {
                                                  for: indexPath)
         let movie = movieList[indexPath.row]
         (cell as? MovieListTableViewCell)?.configure(movie: movie)
+        
+        let isEnd = indexPath.row == (movieList.count - 1)
+        if isEnd { requestNowPlayingMovie(page: currentPage) }
+        
         return cell
     }
     
