@@ -17,10 +17,14 @@ class MovieDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        Network.shared.AFRequestMovieDetail(id: movie.id) { [weak self] in
+            self?.movieDetail = $0
+        }
     }
     
-    @IBOutlet weak var posterImageView: UIImageView!
+    @IBOutlet weak var posterImageView: UIImageView! {
+        didSet { posterImageView.contentMode = .scaleAspectFill }
+    }
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var detailLabel: UILabel!
